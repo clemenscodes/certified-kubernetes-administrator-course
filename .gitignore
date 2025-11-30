@@ -2,3 +2,5 @@
 .infracost/
 .vagrant/
 .DS_Store
+.direnv
+result
