@@ -39,6 +39,8 @@
               containerd
               nerdctl
               cri-tools
+              cni
+              etcd
               docker
               lazydocker
               lazygit
