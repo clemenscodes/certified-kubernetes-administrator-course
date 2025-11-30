@@ -29,19 +29,22 @@
         devShells = {
           default = pkgs.mkShellNoCC {
             buildInputs = with pkgs; [
-              alejandra
-              nil
-              hadolint
-              lazydocker
-              lazygit
+              gnumake
+              gcc
+              go
               kubectl
               kind
               tilt
               k9s
-              gnumake
+              containerd
+              nerdctl
+              cri-tools
               docker
-              go
-              gcc
+              lazydocker
+              lazygit
+              hadolint
+              nil
+              alejandra
             ];
             shellHook = ''
               echo "kubectl $(kubectl version --client)"
