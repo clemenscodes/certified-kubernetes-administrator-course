@@ -34,8 +34,10 @@
               go
               kubectl
               kind
-              tilt
+              k3s
+              k3d
               k9s
+              tilt
               containerd
               nerdctl
               cri-tools
